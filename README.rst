@@ -19,18 +19,34 @@ Dependencies:
 Run the project from virtualenv:
 --------------------------------
 
-* Create the virtual env:
+* Create the virtual env
+
+::
+
  virtualenv cpythontest 
 
  cd cpythontest
-* Retrieve the sources:
+
+ source bin/activate
+
+* Retrieve the sources
+
+::
+
  git clone https://github.com/pypingou/c_python.git
+
 * Enter the folder and run the setup.py script
+
+::
+
  cd c_python
 
  sudo python setup.py install
 
-* Run the tests:
+* Run the tests
+
+::
+
  python test.py
 
 
