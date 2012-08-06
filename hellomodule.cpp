@@ -1,3 +1,8 @@
+/*
+ * Code inspired but modified from:
+ * http://en.wikibooks.org/wiki/Python_Programming/Extending_with_C%2B%2B
+ */
+
 #include <string>
 using namespace std;
 

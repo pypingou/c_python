@@ -1,3 +1,7 @@
+/*
+ * Code from:
+ * http://en.wikibooks.org/wiki/Python_Programming/Extending_with_C
+ */
 #include <Python.h>
  
 int _fib(int n)
