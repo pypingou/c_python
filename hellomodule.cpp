@@ -1,11 +1,11 @@
-#include <string.h>
+#include <string>
  
 using namespace std;
  
-char say_hello(const char* name) {
-    char out[] = "Hello ";
-    strcat(out, name);
-    return *out;
+std::string say_hello(const string name) {
+    string out = "Hello ";
+    out = out + name + "!\n";
+    return out;
 }
  
 #include <boost/python/module.hpp>
