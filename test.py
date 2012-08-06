@@ -18,7 +18,7 @@ class UnitTestCase(unittest.TestCase):
 
     def test_hello(self):
         """ Test the hello world extension. """
-        self.assertEqual(hello.say_hello("World"), "Hello World!")
+        self.assertEqual(hello.say_hello("World"), "Hello World!\n")
 
     def test_sum(self):
         """ Test the sum function. """
